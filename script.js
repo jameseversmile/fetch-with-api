@@ -1,4 +1,4 @@
-let movies = fetch('https://api.themoviedb.org/3/movie/popular?api_key=b502736b7dc66230d5d6deb21358a72a')
+let movies = fetch('https://api.themoviedb.org/3/movie/popular?api_key=Api key a')
     .then(response => {
         if (!response.ok) {
             throw new Error('Network response was not ok');
