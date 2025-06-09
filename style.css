@@ -1,0 +1,24 @@
+body{
+    margin: 0;
+}
+.banner{
+    height: 40vh;
+    background: rgb(22, 2, 2);
+}
+.header{
+    font-size: 50px;
+    margin: 0 0 0 100px;
+}
+.popularmovies{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.movielist{
+    width: 220px;
+    height: 300px;
+    background: rgb(179, 16, 16);
+    margin: 30px;
+}
